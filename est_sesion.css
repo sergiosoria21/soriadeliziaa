@@ -1,0 +1,47 @@
+*{
+    
+        background-image: url(Img/FONDO1.png);
+        background-repeat: no-repeat;
+ background-size: cover;
+
+ 
+ 
+
+
+   
+}
+body {
+   
+    color: aliceblue;
+
+    
+
+     margin: 0;
+   text-align: center;
+   height: 100vh;
+   background-position: center;
+ 
+ 
+ 
+
+  
+    
+}
+body input{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    background: white;
+  
+   
+}
+
+header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-align: center;
+    background: none;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+

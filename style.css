@@ -1,0 +1,349 @@
+
+*{
+    margin-top: 0;
+  
+}
+ body{
+   
+    background-image: url(Img/1.jpg);
+   font-family: 'Poppins',sans-serif;
+  
+   width: 100%;
+   max-width: 2000px;
+   margin: 0 auto;
+  
+    
+}
+
+
+a{
+    
+    color: var(--text-color-1);
+    text-decoration: none;
+}
+a.actual{
+    font-weight: bold;
+    
+}
+
+
+ header div.contenedor ul{
+ 
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+
+}
+header div.contenedor ul{
+ 
+display: flex;
+place-content: space-between;
+  
+}
+header div.contenedor{
+   background: rgb(82, 163, 234);
+   display: flex;
+place-content: space-between;
+  
+   padding: 1em;
+  
+}
+header div.contenedor > h6 > a > span1{
+   color: red;
+}
+header div.contenedor > h6 > a {
+    color: blue;
+ }
+header div.contenedor > h6 >a{
+    word-spacing: -0.2rem;
+}
+header div.contenedor > h6{
+    font-size: 1.2rem;
+  
+}
+
+
+header a{
+    padding: 1em;
+}
+
+.caja1{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.caja1>main{
+    text-align: center;
+ 
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin: 0px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main>p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+aside,main{
+    background-color: rgb(21, 28, 92);
+    flex: 1 1 50%;
+}
+main>img{
+    padding: 10px;
+    width: 25%;
+    border-radius: 70%; 
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside>img{
+    border-radius: 10%;
+    width: 90%;
+    padding: 10px;
+}
+.IMGS{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.IMGS>img{
+    width: 280px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+#pa:hover{
+    background-color: black;
+    color: white;
+}
+#pe:hover{
+    background-color: black;
+    color: white;
+}
+#pi:hover{
+    background-color: black;
+    color: white;
+}
+section{
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 black;
+    padding: 20px;
+    background-color: rgb(14, 84, 124);
+}
+section>div>img{
+height: 250px;
+max-width: 95%;
+}
+section>div{
+    text-align: center;
+    flex: 1 1 50%;
+}
+section>div.galeria,span{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 black;
+    padding: 10px;
+}
+span{
+    background-color: rgb(78, 45, 23);
+    padding: 5px;
+    border-radius:38px;
+    right: 30px;
+    top: 108px;  
+    color: white;
+}
+span:hover{
+    background-color: rgb(250, 248, 248);
+    color: rgb(0, 0, 0);
+}
+article{
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(235, 185, 120);
+}
+.texto_lista{
+    text-align: center;
+    flex: 1 1 50%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 black;
+}
+.texto_lista>span{
+    padding: 5px;
+    right: 30px;
+}
+
+:root{
+    --facebook:rgb(9, 80, 172);
+    --instagram:rgb(218, 34, 208);
+    --twitter:rgb(133, 195, 236);
+    --pinterest:rgb(226, 15, 103);
+    --linkedin:rgb(18, 124, 223);
+}
+.redes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 8px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 35px;
+    box-shadow: 0 3px 5px 0px rgb(21, 21, 39);
+    transition: .2s;
+}
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, -4);
+    filter: none;
+}
+.redes-container ul li .facebook:hover{
+    background: var(--facebook);
+}
+.redes-container ul li .instagram:hover{
+    background: var(--instagram);
+}
+.redes-container ul li .twitter:hover{
+    background: var(--twitter);
+}
+.redes-container ul li .pinterest:hover{
+    background: var(--pinterest);
+}
+.redes-container ul li .linkedin:hover{
+    background: var(--linkedin);
+}
+#menu, #menu-check{
+    display: none;
+}
+h5{
+    text-align: center;
+}
+@media (max-width:767px){
+  
+  
+    nav div.contenedor nav.visible{
+        display:block;
+    }
+    header h1{
+        margin: 0;
+    }
+    header h1 a{
+        padding: 0;
+    }
+    header div.contenedor ul a{
+        display: flex;
+        place-content: space-between;
+
+    }
+    header div.contenedor nav{
+        display: none;
+    }
+    header div.contenedor nav.visible{
+        display: block;
+    }
+    #menu{
+        display: block;
+        color: rgb(255, 255, 255);
+       background-color: rgb(246, 250, 38);
+        font-size: 1.2em;
+        font-weight: bold;
+        border: 3px solid var(--color-1);
+        border-radius: 0.3em;
+        position: absolute;
+        right: 0.5em;
+        
+        top: 0.5em;
+        font-size: 1.4em;
+        z-index: 9999;
+    }
+    span6{
+        color: blue;
+    }
+    #menu:hover{
+        color: rgb(255, 255, 255);
+        background:rgb(255, 255, 255);
+    }
+    #menu-cerrar{
+        display: none;
+    }
+    #menu.salir #menu-abrir{
+        display: none;
+    }
+    #menu.salir #menu-cerrar{
+        display: block;
+    }
+    body.no-scroll{
+        overflow: hidden;
+    }
+    header div.contenedor nav{
+        position:absolute;
+        top:0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        background-color: #333;
+        padding-top: 1.5em;
+        padding-right: 1.5em;
+        opacity: 0.8;
+        color: #fff;
+        z-index: 9998;
+    }
+    header div.contenedor nav ul a{
+        color: #fff;
+        background: none;
+    }
+    header div.contenedor nav ul, header div.contenedor nav ul li{
+        display: block;
+        text-align: right;
+    }
+    .IMGS{
+        flex-direction: column;
+        align-items: center;   
+        margin-bottom: 10px;
+        margin: 10px auto;
+    }
+
+    
+}
+@media (max-width: 1024px){
+.info{
+    flex: 1 1 50%;}
+    
+}
+
+@media (max-width: 767px){
+    .aside,main{
+        
+        flex: 1 1 100%;
+    }
+    section{
+        flex-flow: column;
+    }
+    .info{
+        flex: 1 1 100%;
+    }
+  
+}
